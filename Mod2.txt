@@ -1,0 +1,15 @@
+Module 2
+Amazon Elastic Compute Cloud (Amazon EC2)
+
+**servers to call access to virtual servers, called EC2
+    - Launch -> Connect -> Use.
+
+Amazon EC2: getting started
+    AWS built datacenters.
+    AWS secured datacenters.
+    AWS purchased servers.
+    AWS installed servers.
+    The servers are online and read to use.
+
+** Multitenancy: Sharing underlying hardware between virtual machines.
+** Computer as a service (CaaS)
