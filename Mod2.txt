@@ -13,3 +13,75 @@ Amazon EC2: getting started
 
 ** Multitenancy: Sharing underlying hardware between virtual machines.
 ** Computer as a service (CaaS)
+
+Amazon EC2 instance families:
+    General purpose:
+        + Balanced resources
+        + Diverse workloads
+        + Web servers
+        + Code repositories
+    Compute optimized:
+        + Compute intensive tasks
+        + Gaming servers
+        + High performace computing (HPC)
+        + Scientific modeling
+    Memory optimized:
+        + Memory intensive tasks
+    Acclerated computing:
+        + Floating point number calculations
+        + Graphics processing
+        + Data pattern matching
+        + Utilize hardware accelartors
+    Storage optimized:
+        + High performace for locally stored data
+
+Amazon EC2 instance types: https://aws.amazon.com/ec2/instance-types/
+
+Amazon EC2 purchase options:
+    On-Demand
+    Savings Plans
+    Reserved Instances
+    Spot Instances
+    Dedicated Hosts
+
+Scaling Amazon EC2
+*principle: Scalability and Elasticity
+
+"Everything fails all the time, so plan for failure and nothing fails." - Werner Vogels
+- If you wanted the scaling process to happen automatically, which AWS service would you use? 
+-> Amazon EC2 Auto Scaling.
+
+**Note: To scale faster, you can use dynamic scaling and predictive scaling together.
+
+-- handle growing/scaling demand: 
+scale up or scale out 
+
+**Note: If you do not specify the desired number of Amazon EC2 instances in an Auto Scaling group, the desired capacity defaults to your minimum capacity.
+
+-- handle traffic: 
+load balancing -> properly distribute traffic:
+                    High performace
+                    Cost-efficient
+                    Highly available
+                    Automatically scalable
+"Elastic Load Balancing (ELB)" : Regional construct (region level)
+
+Messaging and Queuing
+*Tightly coupled architecture
+*Loosely coupled architecture
+
+Amazon SQS:
+    Send messages
+    Store messages
+    Receive messages
+    Between software components
+    At any volume
+
+Payload: Data contained within messages
+
+Amazon SQS queues: Where messages are placed until they are processed
+
+Amazon SNS: A chanel for messages to be delivered
+    pub/sub model
+
+Amazon Lambda
